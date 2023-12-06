@@ -7,6 +7,34 @@
     <title>DOM</title>
 </head>
 <body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>GOOGLE</h1>
+          <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Введите вашу почту" name="email" required>
+      
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Введите пароль" name="psw" required>
+      
+          <label for="psw-repeat"><b>Повторите пароль</b></label>
+          <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+          </label>
+      
+          <p>Создавая учетную запись, вы соглашаетесь с нашим <a href="#" style="color:dodgerblue">Условия и конфиденциальность</a>.</p>
+      
+          <div class="clearfix">
+            <button id="myButton" type="button" class="cancelbtn">Отменить</button>
+            <button id="myButton" type="submit" class="signupbtn">Регистрация</button>
+           <a href="#"> <img  id="google" class="google" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43Wmhdy1tqgJABRfNQ-qtn-eKtqCSzZQ9Og&usqp=CAU" alt="google"></a>
+          </div>
+        </div>
+      </form>
     
     <script src="index.js"></script>
 </body>
